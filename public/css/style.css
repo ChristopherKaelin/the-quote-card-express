@@ -1,0 +1,56 @@
+.background-img {
+    background-image: url("../img/mitchell-luo-FWoq_ldWlNQ-unsplash.jpg");
+}
+
+.quote-container {
+    max-width: 600px;
+    padding: 1rem;
+    background-image: radial-gradient(circle at top center, #B82A76, #011D32);
+    background-color: rgba(255, 255, 255, 0.1);
+    font-size: 1.5rem;
+    color: white;
+}
+
+.quote-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ccc;
+    padding: 2rem;
+}
+
+q {
+    padding-bottom: 1rem;
+}
+
+q:before, q:after {
+    margin: 0px;
+    padding: 0px;
+    font-weight: bold;
+    font-size: 2em;
+    display: block;
+}
+
+q:before {
+    position: absolute;
+    left: 50px;
+    top: 0;     
+}
+
+q:after {
+    position: absolute;
+    left: 525px;
+}
+
+.quote-text {
+    line-height: 1.6;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+.author-text {
+    font-size: .9rem;
+    margin-top: 20px;
+}
