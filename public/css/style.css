@@ -13,7 +13,7 @@ main {
     max-width: 768px;
     aspect-ratio: 4/3;
     border-radius: 1rem;
-    background-image: url("../images/england.jpg");
+    background-image: url("../images/quote-background.jpg");
     background-size: cover;
     background-position: center;
     z-index: -1;
@@ -23,7 +23,7 @@ main {
     position: relative;
     max-width: 600px;
     color: black;
-    background-color: rgba(255, 255, 255, 0.4);
+    background-color: rgba(255, 255, 255, 0.66);
     border-radius: 1rem;
     padding: 1rem;
     margin: 0;
