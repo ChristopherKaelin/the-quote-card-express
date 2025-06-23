@@ -8,7 +8,10 @@ const port = 8080;
 require("dotenv").config();
 const cors = require("cors");
 
-app.use(cors());
+const corsOptions = {
+    origin: `http://localhost:${port}`
+}
+app.use(cors(corsOptions));
 
 app.use(express.static("./public"));
 
@@ -19,7 +22,7 @@ async function getRandomImage() {
     try {
         const response = await fetch(endpoint);
         const returnedData = await response.json();
-        const receivedPhotoUrl = returnedData.urls.regular;
+        const receivedPhotoUrl = returnedData.urls.c;
 
         return receivedPhotoUrl;
         // return 'Hello, this is a placeholder for the image URL: ';
